@@ -1,0 +1,20 @@
+{
+    "name": "arnaud/22-composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "OSW3",
+            "email": "contact@osw3.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mon\\Super\\Projet\\PHP\\": "app/classes"
+        }
+    },
+    "require": {
+        "osw3/xpl": "^1.2",
+        "cocur/slugify": "^4.0"
+    },
+    "require-dev": {}
+}
